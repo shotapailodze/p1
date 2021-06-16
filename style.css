@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+
+.background1 {
+    background-image: url(images/bg-pattern-desktop.svg), url(images/hero-desktop.jpg);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    color: pink;
+
+}
+
+body {
+    width: 1440px;
+    height: 800px;
+    padding-left: 150px;
+    display: flex;
+}
+
+.text {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.baselogo {
+    padding-bottom: 150px;
+}
+
+.t1w {
+    font-size: 60px;
+    color: pink;
+}
+
+.t2w {
+    font-size: 60px;
+    color: black;
+}
+
+.t3w {
+    font-size: 60px;
+    color: black;
+}
+
+.t4w {
+    color: pink;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.email {
+    padding-top: 30px;
+}
+
+.button1 {
+    position: relative;
+    display:inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,#ff0099, #8600ff);
+}
+
+.button1:nth-child(2) {
+    background: linear-gradient(135deg,#755bea, #ff72c0);
+}
+
+.footer1 {
+    position: absolute;
+    bottom: 0;
+}
+
+span {
+    position: absolute;
+    background: #fff;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+
+}
+
+@keyframes animate
+{
+    0%
+    {
+        width: 0px;
+        height: 0px;
+    }
+}
+{
+    100%
+    {
+        width: 50px;
+        height: 50px;
+    }
+}
